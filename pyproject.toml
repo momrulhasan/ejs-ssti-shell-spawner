@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ejs-ssti-shell-spawner"
+version = "0.1.0"
+description = "Auto-spawn a reverse shell via EJS@3.1.9 SSTI → RCE"
+readme = "README.md"
+requires-python = ">=3.6"
+license = { text = "MIT" }
+authors = [
+  { name = "Md. Momrul Hasan", email = "youremail@example.com" }
+]
+dependencies = [
+  "requests>=2.0"
+]
+[project.urls]
+"Homepage" = "https://github.com/yourusername/ejs-ssti-shell-spawner"

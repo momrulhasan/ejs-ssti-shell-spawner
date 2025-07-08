@@ -1,0 +1,27 @@
+from setuptools import setup
+
+setup(
+    name='ejs-ssti-shell-spawner',
+    version='0.1.0',
+    author='Md. Momrul Hasan',
+    author_email='youremail@example.com',
+    description='Auto-spawn a reverse shell via EJS@3.1.9 SSTI → RCE',
+    long_description=open('README.md', encoding='utf-8').read(),
+    long_description_content_type='text/markdown',
+    url='https://github.com/yourusername/ejs-ssti-shell-spawner',
+    py_modules=['ejs_ssti_shell_spawner'],
+    entry_points={
+        'console_scripts': [
+            'ejs-ssti-shell-spawner = ejs_ssti_shell_spawner:main'
+        ]
+    },
+    install_requires=[
+        'requests>=2.0',
+    ],
+    classifiers=[
+        'Programming Language :: Python :: 3',
+        'License :: OSI Approved :: MIT License',
+        'Operating System :: OS Independent',
+    ],
+    python_requires='>=3.6'
+)
