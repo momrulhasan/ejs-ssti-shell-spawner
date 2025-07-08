@@ -1,4 +1,4 @@
-# EJS SSTI Shell Spawner
+# EJS 3.1.9 SSTI Exploit
 
 **Auto-exploit CVE-2023-29827 in `ejs@3.1.9` to gain a reverse shell via SSTI → RCE.**
 
