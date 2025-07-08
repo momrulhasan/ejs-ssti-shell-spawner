@@ -28,7 +28,7 @@ This tool automatically exploits a Server-Side Template Injection (SSTI) vulnera
 pip install ejs-ssti-shell-spawner
 Certainly! Here's the continuation of your `README.md` after the `pip install` section:
 
-```markdown
+
 ```
 
 ### Manual Installation
