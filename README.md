@@ -115,4 +115,3 @@ This project is licensed under the [MIT License](LICENSE).
 
 This tool is for **educational and authorized testing purposes only**.
 Any misuse of this code is not the responsibility of the author. Always get proper authorization before testing.
-```
